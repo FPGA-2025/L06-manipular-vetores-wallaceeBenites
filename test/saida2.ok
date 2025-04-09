@@ -1,0 +1,6 @@
+WARNING: tb.v:18: Excess hex digits (2 of '0011223344') while reading 32-bit words.
+VCD info: dumpfile saida.vcd opened for output.
+entrada=11223344, saida=44332211
+entrada=22334455, saida=55443322
+entrada=33445566, saida=66554433
+entrada=44556677, saida=77665544

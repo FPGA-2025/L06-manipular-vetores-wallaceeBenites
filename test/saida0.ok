@@ -1,0 +1,5 @@
+VCD info: dumpfile saida.vcd opened for output.
+entrada=01234567, saida=67452301
+entrada=12345678, saida=78563412
+entrada=23456789, saida=89674523
+entrada=34567890, saida=90785634
