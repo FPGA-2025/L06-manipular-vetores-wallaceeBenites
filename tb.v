@@ -14,8 +14,7 @@ manipular_vetores manip(
 integer i;
 
 initial begin
-  
-  $readmemh("teste.txt", dados_arquivo); // le o arquivo de entrada e guarda em dados_arquivo
+  $readmemh("teste.txt", dados_arquivo); // Lê o arquivo de entrada
 
   $dumpfile("saida.vcd");
   $dumpvars(0, tb);
@@ -27,6 +26,7 @@ initial begin
     #1;
   end
 
+  #1; 
 end
 
 endmodule
